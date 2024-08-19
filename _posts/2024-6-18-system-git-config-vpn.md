@@ -34,7 +34,7 @@ git的命令会有两种连接，一种是http或者https，一种是ssh，以�
     但是国内环境不稳定，经常5分钟前刚push完，5分钟后就不能pull了，就会像这样：
 
     ```
-    PS D:\github\winxuan.github.io> git pull
+    PS D:\github\linkchain.github.io> git pull
     The authenticity of host 'github.com (134.122.196.100)' can't be established.
     ED25519 key fingerprint is SHA256
     +OfkhiMd0kWxjBgdK0SOgJujui5Zyxg.

@@ -275,7 +275,7 @@ Docker的部署十分简便，如果各位部署环境中有长期运行的Docke
 
       如果配置完成使用时发现没有类似ChatGPT使用时的那种打字机的感觉，或者称为流输出，是因为Azure默认配置了内容筛选器，需要特殊配置下才会有打字机效果，可以参考下笔者的另外一篇文章做配置：
 
-      [Azure OpenAI生成内容流式输出（配置打字机效果）](https://winxuan.github.io/posts/azure-openai-content-stream-processing/)
+      [Azure OpenAI生成内容流式输出（配置打字机效果）](https://linkchain.github.io/posts/azure-openai-content-stream-processing/)
 
       下图效果左为特殊配置后，右为默认配置
       ![GIF](/assets/image/2024/5/20240525173300.gif)
@@ -579,12 +579,12 @@ Docker部署配置问题：
       interface:
       # Privacy policy settings
       privacyPolicy:
-         externalUrl: 'https://winxuan.github.io/plan/'
+         externalUrl: 'https://linkchain.github.io/plan/'
          openNewTab: true
 
       # Terms of service
       termsOfService:
-         externalUrl: 'https://winxuan.github.io/plan/'
+         externalUrl: 'https://linkchain.github.io/plan/'
          openNewTab: true      
       ```
 
@@ -675,7 +675,7 @@ Docker部署配置问题：
       ```
       APP_TITLE=AIChat
       CUSTOM_FOOTER="Footer"
-      HELP_AND_FAQ_URL=https://winxuan.github.io
+      HELP_AND_FAQ_URL=https://linkchain.github.io
       ```
 
       这里修改之后，不仅仅可以修改email中信息，对应的浏览器打开时的标题等也会被更改

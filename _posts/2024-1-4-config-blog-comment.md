@@ -52,7 +52,7 @@ GitHub pages开通评论区，首先需要确认的是自己选择的主题是�
     
     2. 配置仓库：
 
-        这里配置的仓库就是自己现在想要配置的pages页面的仓库地址，用户名+仓库名，比如我的仓库就是winxuan/winxuan.github.io
+        这里配置的仓库就是自己现在想要配置的pages页面的仓库地址，用户名+仓库名，比如我的仓库就是linkchain/linkchain.github.io
 
         ![主题](/assets/image/2024/1/20240104153730.png)
 

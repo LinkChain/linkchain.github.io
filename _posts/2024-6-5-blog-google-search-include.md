@@ -19,7 +19,7 @@ tags: [blog]
     site:https://your_github_id.github.io/
     ```
 
-    比如笔者这里就是site:https://winxuan.github.io/
+    比如笔者这里就是site:https://linkchain.github.io/
 
     如果没有被Google搜索收录，那会出现如下图所示，跟着笔者往下一步一步配置吧
 

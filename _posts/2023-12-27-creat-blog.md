@@ -25,7 +25,7 @@ Jekyll是一个简单、可扩展的静态站点生成器。它将文本格式�
 
 1. 免费与活跃社区支持：
 
-    GitHub Pages是完全免费的解决方案，而且本身也有很多免费优秀的主题，用户通过fork对应主题的仓库，再通过一些简单的配置文件修改，即可生成一个自己的网站。比如我通过fork cotes2020/jekyll-theme-chirpy主题仓库，修改一些配置之后，得到了一个自己的网站：[https://winxuan.github.io/](https://winxuan.github.io/)。同时如果出现任何问题，都可以通过fork from的仓库发issue去询问解决，同时如果自己有代码能力也可以自己去解决并通过issue帮助同样有问题的人解决问题，在一个非常流行的主题仓库是有很多活跃的用户的，他们非常乐意去分享自己的内容。
+    GitHub Pages是完全免费的解决方案，而且本身也有很多免费优秀的主题，用户通过fork对应主题的仓库，再通过一些简单的配置文件修改，即可生成一个自己的网站。比如我通过fork cotes2020/jekyll-theme-chirpy主题仓库，修改一些配置之后，得到了一个自己的网站：[https://linkchain.github.io/](https://linkchain.github.io/)。同时如果出现任何问题，都可以通过fork from的仓库发issue去询问解决，同时如果自己有代码能力也可以自己去解决并通过issue帮助同样有问题的人解决问题，在一个非常流行的主题仓库是有很多活跃的用户的，他们非常乐意去分享自己的内容。
 
 2. 集成与自动部署：
 
@@ -69,7 +69,7 @@ Jekyll是一个简单、可扩展的静态站点生成器。它将文本格式�
 
     ![主题](/assets/image/2023/12/20231228112752.png)
 
-    跳转进入创建页面，修改下仓库名称为 `USERNAME.github.io`，比如我的GitHub用户名是winxuan，那么我的仓库名就是winxuan.github.io（这里因为我已经创建过一个同名仓库了，所以有红字提示）
+    跳转进入创建页面，修改下仓库名称为 `USERNAME.github.io`，比如我的GitHub用户名是linkchain，那么我的仓库名就是linkchain.github.io（这里因为我已经创建过一个同名仓库了，所以有红字提示）
 
     ![主题](/assets/image/2023/12/20231228113351.png)
 
@@ -87,7 +87,7 @@ Jekyll是一个简单、可扩展的静态站点生成器。它将文本格式�
 
     _config.yml中的变量，url，avatar，timezone，lang，主要是这四个配置
 
-    正常都会在1分钟内部署完成，这时候访问`USERNAME.github.io`，即刚刚创建的仓库名，比如我的是winxuan.github.io，即可看到对应的网页。如果能正常看到类似demo的网页，那说明部署成功了。
+    正常都会在1分钟内部署完成，这时候访问`USERNAME.github.io`，即刚刚创建的仓库名，比如我的是linkchain.github.io，即可看到对应的网页。如果能正常看到类似demo的网页，那说明部署成功了。
 
 ### GitHub Fork（开发者专用）
 
@@ -95,7 +95,7 @@ Jekyll是一个简单、可扩展的静态站点生成器。它将文本格式�
 
 1. 创建git仓库
 
-    fork该仓库https://github.com/cotes2020/jekyll-theme-chirpy，同时修改仓库名为 `USERNAME.github.io`，比如我的GitHub用户名是winxuan，那么我的仓库名就是winxuan.github.io
+    fork该仓库https://github.com/cotes2020/jekyll-theme-chirpy，同时修改仓库名为 `USERNAME.github.io`，比如我的GitHub用户名是linkchain，那么我的仓库名就是linkchain.github.io
 
 2. 配置github仓库
 
@@ -107,13 +107,13 @@ Jekyll是一个简单、可扩展的静态站点生成器。它将文本格式�
 
     删除代码仓库中的.github文件夹，将我的仓库中对应的文件夹上传上去
 
-    https://github.com/winxuan/winxuan.github.io/tree/master/.github/workflows
+    https://github.com/linkchain/linkchain.github.io/tree/master/.github/workflows
 
     因为作者的CI流程有些复杂，可能不可用，这里其实用最简单的流程即可，不需要太复杂。
 
 3. 修改项目配置
 
-    _config.yml中的变量，url，avatar，timezone，lang，主要是这四个配置，其中url是必须的，需要更改成自己pages的链接地址，比如我的就配置成winxuan.github.io，如果未配置，即会出现线上无法访问的问题。
+    _config.yml中的变量，url，avatar，timezone，lang，主要是这四个配置，其中url是必须的，需要更改成自己pages的链接地址，比如我的就配置成linkchain.github.io，如果未配置，即会出现线上无法访问的问题。
 
 ### 本地部署环境和调试
 

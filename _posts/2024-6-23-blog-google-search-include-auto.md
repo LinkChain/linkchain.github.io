@@ -163,9 +163,9 @@ Google search有对应的API，该API可以实现向Google search中添加索引
 
     1. 选择 HTTP 方法为 POST，输入 URL:
 
-        这里笔者的网站地址是winxuan.github.io，自己替换下就好
+        这里笔者的网站地址是linkchain.github.io，自己替换下就好
         ```
-        https://www.googleapis.com/webmasters/v3/sites/https%3A%2F%2Fwinxuan.github.io%2F/searchAnalytics/query
+        https://www.googleapis.com/webmasters/v3/sites/https%3A%2F%2Flinkchain.github.io%2F/searchAnalytics/query
         ```
         
     2. 在 "Authorization" 选项卡中,选择类型为 "Bearer Token"，输入1中获取的access_token
@@ -207,8 +207,8 @@ Google search有对应的API，该API可以实现向Google search中添加索引
     ```
     POST https://searchconsole.googleapis.com/v1/urlInspection/index:inspect
     {
-        "inspectionUrl": "https://winxuan.github.io/posts/gpt-api-function-call/",
-        "siteUrl": "https://winxuan.github.io/",
+        "inspectionUrl": "https://linkchain.github.io/posts/gpt-api-function-call/",
+        "siteUrl": "https://linkchain.github.io/",
         "languageCode": "zh-cn"
     }
     ```
@@ -232,10 +232,10 @@ Google search有对应的API，该API可以实现向Google search中添加索引
                     "indexingState": "INDEXING_ALLOWED",
                     "lastCrawlTime": "2024-06-21T09:55:37Z",
                     "pageFetchState": "SUCCESSFUL",
-                    "googleCanonical": "https://winxuan.github.io/posts/gpt-api-function-call/",
-                    "userCanonical": "https://winxuan.github.io/posts/gpt-api-function-call/",
+                    "googleCanonical": "https://linkchain.github.io/posts/gpt-api-function-call/",
+                    "userCanonical": "https://linkchain.github.io/posts/gpt-api-function-call/",
                     "referringUrls": [
-                        "https://winxuan.github.io/plan/"
+                        "https://linkchain.github.io/plan/"
                     ],
                     "crawledAs": "MOBILE"
                 },
@@ -280,10 +280,10 @@ Google search有对应的API，该API可以实现向Google search中添加索引
 
     这里笔者以自己想要推送的一个地址举例
 
-    方法选择put，然后内容填下面这个，注意这里siteUrl被替换成了笔者经过编码后的网址，也就是替换/后的https://winxuan.github.io/posts/chatgpt-azure-openai-preface
+    方法选择put，然后内容填下面这个，注意这里siteUrl被替换成了笔者经过编码后的网址，也就是替换/后的https://linkchain.github.io/posts/chatgpt-azure-openai-preface
 
     ```
-    https://www.googleapis.com/webmasters/v3/sites/https%3A%2F%2Fwinxuan.github.io%2Fposts%2Fchatgpt-azure-openai-preface
+    https://www.googleapis.com/webmasters/v3/sites/https%3A%2F%2Flinkchain.github.io%2Fposts%2Fchatgpt-azure-openai-preface
     ```
 
     这里会返回的是一个204 no content，返回内容为空，则证明成功的推送上去了

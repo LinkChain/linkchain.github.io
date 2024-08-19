@@ -24,7 +24,7 @@ tags: [blog]
     如笔者这里在blog根目录配置如下：
 
     ```
-    img_cdn: https://testingcf.jsdelivr.net/gh/winxuan/winxuan.github.io
+    img_cdn: https://testingcf.jsdelivr.net/gh/linkchain/linkchain.github.io
     ``` 
     使用的cdn是testingcf.jsdelivr.net
 
@@ -36,11 +36,11 @@ tags: [blog]
 
     修改前：
     ```
-    https://winxuan.github.io/assets/image/dutch.png
+    https://linkchain.github.io/assets/image/dutch.png
     ```
     修改后
     ```
-    https://testingcf.jsdelivr.net/gh/winxuan/winxuan.github.io/assets/image/dutch.png
+    https://testingcf.jsdelivr.net/gh/linkchain/linkchain.github.io/assets/image/dutch.png
     ```
 
     同时可以多找几个同学朋友帮你检查下，看国内网是否可以访问，最简单的办法就是用自己手机关闭无线网使用5G访问自己的blog看下加载速度是否比以前快很多。
